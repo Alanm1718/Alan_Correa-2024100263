@@ -18,7 +18,7 @@ public class Persona {
         this.cedula = cedula;
     }
     
-    // Se agrega toString() para que funcione super.toString() en Estudiante
+   
     @Override
     public String toString() {
         return "Nombre: " + nombre + " | Cedula: " + cedula;
